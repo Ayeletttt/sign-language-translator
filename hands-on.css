@@ -1,0 +1,74 @@
+ 
+html
+ {
+     background-color: aqua;
+ }
+ 
+ #header
+{
+    color: #1a94b9;
+    padding: 24px 0;
+    background-color: #000000;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+
+#logo
+{
+    height: 100px;
+    float: left;
+    margin: 0px 16px;
+}
+
+h1 
+{
+    display: inline;
+    margin: 0;
+    vertical-align: middle;
+}
+
+#message
+{
+    color: rgb(255, 255, 255);
+    background-color: #81959b;
+    padding: 23px;
+    margin: 0px 0px 0px;
+}
+
+#arrow
+{
+    margin-right: 15px;
+    display: inline;
+    
+}
+
+#translator
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.row
+{
+    display: flex;
+    flex-flow: row;
+    background-color: #000000;
+    padding: 20px 0px 0px;
+    font-size: 70px;
+    margin:  150px 250px;
+    cursor: pointer;
+}
+
+.item
+{
+    flex-grow: 1;
+
+}
