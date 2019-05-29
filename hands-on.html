@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>
+        Hands-on.com
+    </title> 
+    
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="normalize.css" >
+    <link rel="stylesheet" href="hands-on.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- <input type="button" id='translator' name="scriptbutton" value=" Run Script " onclick="exec('classify_webcam.py');"> -->
+
+    <!--<script>
+        function goToTranslator() {
+    $.ajax({
+        type: "GET",
+        url: "./classify_webcam.py"
+    }).done(function( o ) {
+        //do something
+        console.log("done");
+    });
+}-->
+    </script>
+<body>
+    <div id="header">
+        <img src="img/logo.png" id="logo" />
+       <h1>
+        Hands-On
+        </h1>
+    </div>
+
+    <!--
+        <p id="message">
+        Hands-on is a website devoted to helping those who are deaf or hearing impaired. In order to allow them to speak to those who do not know sign language, it translates a video of them speaking sign language into English text. 
+    </p>
+-->
+
+    <p id="message">
+     The Hands-On translator is a translator which helps the deaf or hearing impaired to communicate with English-speakers who do not speak sign language. Many people who are deaf need to hire translators daily to allow them to speak with others. The Hands-On translator lessens this need by translating sign language. This translator was built with the use of TensorFlow, a library used for, among other things, machine learning. TensorFlow allows the Translator to become better the more it used, meaning over time it will start to translate sign language more quickly and accurately.
+    </p>
+
+    <!--
+        <div class="row" onclick="goToTranslator()">
+     <p id="translator" class="item">
+        TO
+        <br/> 
+        TRANSLATOR
+     </p>
+    
+    <img src="img/arrow.png" id="arrow" />  
+    -->
+  <p style="text-align:center;">
+    <img src="img/y.png" height="400px" />
+  </p>
+
+    </div>
+</body>
+
+</html>
